@@ -1,0 +1,22 @@
+{
+    "name": "solovev/cms.local",
+    "authors": [
+        {
+            "name": "Никита Соловьев",
+            "email": "capsolyanskiy@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*",
+      "ext-mbstring": "*",
+      "ext-zip": "*"
+    },
+    "autoload": {
+        "psr-4":  {
+            "Engine\\": "engine",
+            "Engine\\DI\\" : "engine/DI",
+            "Cms\\": "cms",
+            "Admin\\": "admin"
+        }
+    }
+}
